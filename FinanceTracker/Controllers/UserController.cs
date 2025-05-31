@@ -133,7 +133,7 @@ namespace FinanceTracker.Controllers
             }
         }
 
-        [Authorize(Roles = "Employee")]
+        // [Authorize(Roles = "Employee")]
         [Route("categoryTypes")]
         [HttpGet]
         public async Task<IActionResult> GetCategoryByType()
